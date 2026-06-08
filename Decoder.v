@@ -30,7 +30,7 @@
         
         
         
-        module decoder_2to4(input  [1:0] in,output reg [3:0] out);
+        module Decoder_2to4(input  [1:0] in,output reg [3:0] out);
         
         always @(*) begin
             case(in)
